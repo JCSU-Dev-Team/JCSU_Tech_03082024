@@ -9,13 +9,10 @@ function Header() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        // Listen for changes in the authentication state
         onAuthStateChanged(auth, (user) => {
             if (user) {
-                // User is signed in
                 setUser(user);
             } else {
-                // User is signed out
                 setUser(null);
             }
         });
@@ -23,20 +20,16 @@ function Header() {
 
     const handleSignOut = () => {
         signOut(auth).then(() => {
-            // Sign-out successful.
             console.log("Sign-out successful.");
         }).catch((error) => {
-            // An error happened.
             console.error("An error happened: ", error);
         });
     };
 
     const handleClick = () => {
         if (user) {
-            // User is signed in, sign them out
             handleSignOut();
         } else {
-            // User is signed out, redirect them to the login page
             navigate("/login");
         }
     };
