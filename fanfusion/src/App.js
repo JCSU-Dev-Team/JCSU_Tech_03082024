@@ -8,6 +8,7 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import Social from './components/Social';
 import Upload from './components/Upload';
+import ForYou from './components/ForYou';
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
+      <Route path='/for-you' element={(<><Header /><ForYou /><Footer /></>
+        )} 
+        />
       <Route path='/upload' element={(<><Header /><Upload /><Footer /></>
         )} 
         />
