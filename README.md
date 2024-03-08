@@ -5,10 +5,10 @@ FanFusion is a web application that aims to provide a platform for fans to conne
 ## Project Structure
 The project is organized into several components:
 
-Header: A navigation bar displayed at the top of the page, allowing users to navigate between different sections of the application. It includes features such as user authentication, profile management, and settings.
-ForYou: A component that displays personalized content recommendations for the user based on their preferences. It fetches data from external APIs such as YouTube to populate the recommendations.
-Chat: A chat interface where users can interact with a conversational AI powered by OpenAI's GPT-3.5 model. Users can send messages, receive responses from the AI, and even upload files for summarization or processing.
-Profile: A user profile page where users can view and manage their account information, preferences, and saved content.
+- Header: A navigation bar displayed at the top of the page, allowing users to navigate between different sections of the application. It includes features such as user authentication, profile management, and settings.
+- ForYou: A component that displays personalized content recommendations for the user based on their preferences. It fetches data from external APIs such as YouTube to populate the recommendations.
+- Chat: A chat interface where users can interact with a conversational AI powered by OpenAI's GPT-3.5 model. Users can send messages, receive responses from the AI, and even upload files for summarization or processing.
+- Profile: A user profile page where users can view and manage their account information, preferences, and saved content.
 ## Features
 - User Authentication: Users can sign up, log in, and log out of their accounts using Firebase Authentication.
 - Personalized Content Recommendations: The ForYou component fetches and displays personalized content recommendations for each user based on their preferences and viewing history.
