@@ -43,7 +43,7 @@ function App() {
       <Route path='/social' element={(<><Header /><Social /><Footer /></>
         )} 
         />
-      <Route path='/landing' element={(<><Header /><Landing /><Footer /></>
+      <Route path='/landing' element={(<><Header /><Home/><Footer /></>
         )} 
         />
       <Route path='/signup' element={(<><Signup /></>
@@ -63,7 +63,7 @@ function App() {
         element={(
           <>
           <Header />
-          <Home/>
+          <Landing />
           <Footer/>
           </>
         )} 
