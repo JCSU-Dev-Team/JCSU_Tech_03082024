@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { auth, storage, db } from '../firebase';
 import { ref, uploadBytes} from "firebase/storage";
 import { Button, TextField, Typography} from '@mui/material';
-import { collection, addDoc} from "firebase/firestore";
+import { collection, addDoc, doc, setDoc} from "firebase/firestore";
 import { useNavigate } from 'react-router-dom';
 
 function Upload() {
@@ -23,26 +23,32 @@ function Upload() {
 
     const handleUpload = async (event) => {
         if (!file) return;
-
+    
         const storageRef = ref(storage, `content/${user?.uid}/${file.name}`);
         uploadBytes(storageRef, file).then((snapshot) => {
             console.log('Uploaded file!');
             setUploadComplete(true); 
         });
-        const userRef = collection(db, `users/${user?.uid}/info`);
-        addDoc(userRef, {
-            fileName: file.name,
-            description: description,
-        })
-        .then(() => {
+    
+        const userRef = collection(db, `users/${user?.uid}/content`);
+        try {
+            const docRef = await addDoc(userRef, {
+                fileName: file.name,
+                description: description,
+                likes: 0,
+                comments: 0,
+                views: 0,
+            });
             console.log("Data written to database");
-        })
-        .catch((error) => {
+            setDoc(docRef, {id: docRef.id }, { merge: true });
+        } catch (error) {
             console.error("Error writing data to database: ", error);
-        });
+        }
+    
         setFile(null);
         setDescription('');
     };
+    
 
     const handleUploadMore = () => {
         setUploadMore(true);
