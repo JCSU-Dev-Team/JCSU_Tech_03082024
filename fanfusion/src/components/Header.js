@@ -40,7 +40,7 @@ function Header() {
 
     return (
         <div className='header'>
-            <img onClick={homeClick} className='header-logo' src='PreHealthx-logos_white.png' alt=''/>
+            <img onClick={homeClick} className='header-logo' src='logo.png' alt=''/>
             <div className='header-nav'>
                 <div className='header-nav-1'><Link to= '/' className='header-link'><span>Home</span></Link></div>
                 <div className='header-nav-1'>

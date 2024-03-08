@@ -9,7 +9,11 @@ import Signup from './components/Signup';
 import Social from './components/Social';
 import Upload from './components/Upload';
 import ForYou from './components/ForYou';
+<<<<<<< HEAD
 import Landing from './components/Landing';
+=======
+import View from './components/View';
+>>>>>>> 0d2ce3144b2c911d70e33335b76c5432cec4a323
 
 
 function App() {
@@ -18,6 +22,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
+      <Route path='/view' element={(<><Header /><View /><Footer /></>
+        )} 
+        />
       <Route path='/for-you' element={(<><Header /><ForYou /><Footer /></>
         )} 
         />
