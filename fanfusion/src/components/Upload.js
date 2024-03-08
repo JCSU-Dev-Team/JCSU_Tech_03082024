@@ -1,15 +1,20 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { auth, storage, db } from '../firebase';
-import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
-import { Button, TextField, Typography } from '@mui/material';
+import { ref, uploadBytes} from "firebase/storage";
+import { Button, TextField, Typography} from '@mui/material';
 import { collection, addDoc} from "firebase/firestore";
+import { useNavigate } from 'react-router-dom';
 
 function Upload() {
-
     const user = auth.currentUser;
+    const navigate = useNavigate();
 
     const [file, setFile] = useState(null);
     const [description, setDescription] = useState('');
+    const [uploadComplete, setUploadComplete] = useState(false);
+    const [uploadMore, setUploadMore] = useState(false);
 
     const handleFileChange = (e) => {
         const file = e.target.files[0];
@@ -19,21 +24,35 @@ function Upload() {
     const handleUpload = async (event) => {
         if (!file) return;
 
-        const storageRef = ref(storage, `users/${user?.uid}/content`);
-        const snapshot = await uploadBytes(storageRef, file);
-        const downloadURL = await getDownloadURL(snapshot.ref);
+        const storageRef = ref(storage, `content/${user?.uid}/${file.name}`);
+        uploadBytes(storageRef, file).then((snapshot) => {
+            console.log('Uploaded file!');
+            setUploadComplete(true); 
+        });
         const userRef = collection(db, `users/${user?.uid}/info`);
         addDoc(userRef, {
             fileName: file.name,
             description: description,
         })
         .then(() => {
-          console.log("Data written to database");
+            console.log("Data written to database");
         })
         .catch((error) => {
-          console.error("Error writing data to database: ", error);
+            console.error("Error writing data to database: ", error);
         });
+        setFile(null);
+        setDescription('');
+    };
 
+    const handleUploadMore = () => {
+        setUploadMore(true);
+        setUploadComplete(false);
+    };
+
+    const handleNoUploadMore = () => {
+        setUploadMore(false);
+        setUploadComplete(false);
+        navigate('/for-you')
     };
 
     return (
@@ -67,6 +86,19 @@ function Upload() {
             >
                 Upload
             </Button>
+            {uploadComplete && (
+                <div>
+                    <Typography variant="body1" style={{ marginTop: '20px', color: 'green' }}>
+                        Upload complete! Do you want to upload more?
+                    </Typography>
+                    <Button variant="contained" color="primary" onClick={handleUploadMore} style={{ margin: '10px' }}>
+                        Yes
+                    </Button>
+                    <Button variant="contained" color="secondary" onClick={handleNoUploadMore} style={{ margin: '10px' }}>
+                        No
+                    </Button>
+                </div>
+            )}
         </div>
     );
 }
