@@ -9,6 +9,7 @@ import Signup from './components/Signup';
 import Social from './components/Social';
 import Upload from './components/Upload';
 import ForYou from './components/ForYou';
+import Landing from './components/Landing';
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
         )} 
         />
       <Route path='/social' element={(<><Header /><Social /><Footer /></>
+        )} 
+        />
+      <Route path='/landing' element={(<><Header /><Landing /><Footer /></>
         )} 
         />
       <Route path='/signup' element={(<><Signup /></>

@@ -1,0 +1,371 @@
+.how-to-edit-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(33, 33, 33, 0.8);
+    width: 100%;
+    height: 100%;
+  }
+  .how-to-edit-item {
+    position: absolute;
+    top: 170px;
+    left: 363px;
+    border-radius: 50px;
+    background-color: #E8DBF9;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+    width: 702px;
+    height: 367px;
+  }
+  .for-full-editing,
+  .httpsllinklyhqcoml1caem {
+    position: absolute;
+    top: 357px;
+    left: 499px;
+    text-decoration: underline;
+    line-height: 72px;
+    font-weight: 700;
+    color: inherit;
+  }
+  .for-full-editing {
+    top: 276px;
+    left: 449px;
+    color: #000;
+  }
+  .how-to-edit,
+  .landing-child {
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .how-to-edit {
+    width: 1431px;
+    height: 708px;
+    text-align: center;
+    color: #2196F3;
+    font-family: "Open Sans";
+  }
+  .landing-child {
+    width: 1440px;
+    height: 92px;
+    background-color: #fff;
+  }
+  .db3b4fe2-b3d9-4399-adeb-acd4bc-icon {
+    width: 30px;
+    height: 37.5px;
+    position: relative;
+    border-radius: 20px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .counter-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 7px;
+  }
+  .fanfusion {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .fanfusion,
+  .home {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 42px;
+    z-index: 1;
+  }
+  .fanfusion-parent,
+  .group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0 0;
+    font-size: 15px;
+    color: #262626;
+    font-family: "DM Sans";
+  }
+  .fanfusion-parent {
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 25px 0 0;
+    gap: 20px;
+    font-size: 42px;
+    color: #000;
+    font-family: Darkline;
+  }
+  .category {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 42px;
+    z-index: 1;
+  }
+  .stars {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 25px 0 0;
+  }
+  .trending-news {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 42px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .stars1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 24px 0 0;
+  }
+  .recent-news {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 42px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .stars2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 25px 0 0;
+  }
+  .clubs-ranking {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 42px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .stars3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 24px 0 0;
+  }
+  .sports-article {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 42px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .stars4 {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .title-title-center-align {
+    margin-top: -2px;
+    margin-bottom: -2px;
+    height: 39px;
+    width: 39px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .search {
+    margin-top: -3px;
+    margin-bottom: -4px;
+    flex: 1;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    line-height: 42px;
+    font-family: "DM Sans";
+    color: #fff;
+    text-align: left;
+    z-index: 1;
+    margin-left: -12px;
+  }
+  .nav-list-item,
+  .nav-list-item-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .nav-list-item {
+    cursor: pointer;
+    border: 0;
+    padding: 0 8px 0 13px;
+    background-color: #DC4D1C;
+    align-self: stretch;
+    height: 35px;
+    border-radius: 6px;
+    flex-direction: row;
+    z-index: 1;
+  }
+  .nav-list-item:hover {
+    background-color: #F56636;
+  }
+  .nav-list-item-wrapper {
+    width: 100px;
+    flex-direction: column;
+    padding: 0 0 4px;
+  }
+  .frame-content,
+  .title-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-content {
+    width: 1174px;
+    align-items: flex-end;
+    gap: 0 14px;
+  }
+  .title-card {
+    align-self: stretch;
+    align-items: flex-start;
+    padding: 0 19px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  .basketball-sport-icon-in-minim {
+    width: 716px;
+    height: 513px;
+    position: relative;
+    display: none;
+    opacity: 0.08;
+    mix-blend-mode: luminosity;
+    max-width: 100%;
+  }
+  .exercises-basketball-players {
+    margin: 0;
+  }
+  .exercises-basketball-players-container {
+    width: 370px;
+    height: 87px;
+    position: relative;
+    font-size: 22px;
+    line-height: 29px;
+    display: none;
+    font-weight: 300;
+    font-family: "Open Sans";
+    color: #262626;
+    max-width: 100%;
+  }
+  .june-2023,
+  .this-article-was {
+    position: relative;
+    font-weight: 500;
+    display: none;
+  }
+  .this-article-was {
+    width: 357px;
+    font-size: 16px;
+    line-height: 123.9%;
+    color: #696868;
+    max-width: 100%;
+  }
+  .june-2023 {
+    font-size: 14px;
+    line-height: 100.9%;
+  }
+  .card-news-item,
+  .texttestimonial {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .texttestimonial {
+    flex: 1;
+    flex-direction: column;
+    gap: 25px 0;
+  }
+  .card-news-item {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 526px 15px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  .parent-frame {
+    width: 1215px;
+    flex-direction: column;
+    align-items: center;
+    gap: 43px 0;
+    max-width: 100%;
+  }
+  .card-frame,
+  .landing,
+  .parent-frame {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .card-frame {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .landing {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 69px 53px 116px 112px;
+    box-sizing: border-box;
+    gap: 203px 0;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 28px;
+    color: rgba(38, 38, 38, 0.6);
+    font-family: "DM Sans";
+  }
+  @media screen and (max-width: 1200px) {
+    .card-news-item {
+      padding-bottom: 144px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .card-news-item {
+      padding-bottom: 94px;
+      box-sizing: border-box;
+    }
+    .parent-frame {
+      gap: 21px 0;
+    }
+    .landing {
+      gap: 101px 0;
+      padding-left: 56px;
+      padding-right: 26px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .for-full-editing,
+    .httpsllinklyhqcoml1caem {
+      font-size: 22px;
+      line-height: 58px;
+    }
+    .exercises-basketball-players-container {
+      font-size: 18px;
+      line-height: 23px;
+    }
+    .landing {
+      gap: 51px 0;
+      padding-left: 20px;
+      box-sizing: border-box;
+    }
+  }

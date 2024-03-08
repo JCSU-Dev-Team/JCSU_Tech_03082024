@@ -1,0 +1,114 @@
+.frame-text,
+.left-button-icon {
+  height: 50px;
+  width: 70px;
+  position: relative;
+}
+.frame-text {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #DC4D1C;
+}
+.right-button-frame {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 60px;
+  text-transform: uppercase;
+  display: inline-block;
+  z-index: 1;
+  margin-left: -24px;
+}
+.ellipse-node {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10px 0 0;
+  color: #EBEEF3;
+}
+.b {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.left-button-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 12px 0 0;
+}
+.b1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.left-button-frame2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 13px 0 0;
+}
+.b2 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.left-button-frame3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 13px 0 0;
+}
+.right-button-icon {
+  height: 50px;
+  width: 70px;
+  position: relative;
+}
+.left-button-parent,
+.parent-frame-inner {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.left-button-parent {
+  width: 470px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.parent-frame-inner {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 23px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #DC4D1C;
+  font-family: "Open Sans";
+}
+@media screen and (max-width: 450px) {
+  .b,
+  .b1,
+  .b2,
+  .right-button-frame {
+    font-size: 19px;
+    line-height: 48px;
+  }
+  .left-button-parent {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+
+
