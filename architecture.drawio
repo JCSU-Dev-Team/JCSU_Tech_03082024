@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2024-03-08T12:29:12.824Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="go1jtNnw_Tmi_Cc22l-U" version="24.0.2" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="2392" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-1" value="&lt;br&gt;DataBase Microsoft Azure to store content features" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="565" y="430" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sBbkJxTeKslF5v-EmUNn-2" target="sBbkJxTeKslF5v-EmUNn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-2" value="Feature preparation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sBbkJxTeKslF5v-EmUNn-3" target="sBbkJxTeKslF5v-EmUNn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-3" value="Client Query" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sBbkJxTeKslF5v-EmUNn-4" target="sBbkJxTeKslF5v-EmUNn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-4" value="Re-ranking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sBbkJxTeKslF5v-EmUNn-5" target="sBbkJxTeKslF5v-EmUNn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-5" value="&lt;br&gt;Content DataBase Microsoft Azure (Cloud)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="265" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sBbkJxTeKslF5v-EmUNn-7" target="sBbkJxTeKslF5v-EmUNn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sBbkJxTeKslF5v-EmUNn-7" target="sBbkJxTeKslF5v-EmUNn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-7" value="User features&lt;div&gt;Use of Kafka and Apache Storm&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-8" value="Candidate generation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sBbkJxTeKslF5v-EmUNn-10" target="sBbkJxTeKslF5v-EmUNn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sBbkJxTeKslF5v-EmUNn-10" target="sBbkJxTeKslF5v-EmUNn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-10" value="Scoring" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-16" value="User Curated Videos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sBbkJxTeKslF5v-EmUNn-19" target="sBbkJxTeKslF5v-EmUNn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sBbkJxTeKslF5v-EmUNn-19" target="sBbkJxTeKslF5v-EmUNn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-19" value="Client Query" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBbkJxTeKslF5v-EmUNn-22" value="User getting personalized content&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
