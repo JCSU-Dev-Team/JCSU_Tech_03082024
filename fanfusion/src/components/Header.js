@@ -47,6 +47,10 @@ function Header() {
                     {user ? (<Link to= '/social' className='header-link'><span>Social</span></Link>) :
                     (<span>Social</span>)}
                 </div>
+                <div className='header-nav-1'>
+                    {user ? (<Link to= '/chat' className='header-link'><span>Chat</span></Link>) :
+                    (<span>Chat</span>)}
+                </div>
                 <div className="header-nav-1">
                     {user ? (
                         // User is signed in, display Logout button

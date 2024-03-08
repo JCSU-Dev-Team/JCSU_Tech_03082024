@@ -10,14 +10,26 @@ import Social from './components/Social';
 import Upload from './components/Upload';
 import ForYou from './components/ForYou';
 import View from './components/View';
+import Chat from './components/Chat';
+import {Helmet} from 'react-helmet'
+
 
 
 function App() {
   return (
     <ErrorBoundary>
     <div className="App">
+    <Helmet>
+                <meta charSet="utf-8" />
+                <title>PreHealthX</title>
+                <link rel="canonical" href="https://pre-healthx.web.app" />
+                <meta name="description" content="" />
+            </Helmet>
       <BrowserRouter>
       <Routes>
+      <Route path='/chat' element={(<><Header /><Chat /><Footer /></>
+        )} 
+        />
       <Route path='/view' element={(<><Header /><View /><Footer /></>
         )} 
         />
