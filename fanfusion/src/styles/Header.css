@@ -11,11 +11,12 @@
 }
 
 .header-logo {
-    width: 10%;
+    width: 5%;
     object-fit:scale-down;
     margin-top: 0px;
     left: 100%;
     cursor: pointer;
+    
 }
 
 .header-logo :hover {
