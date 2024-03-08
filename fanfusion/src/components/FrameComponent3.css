@@ -1,0 +1,349 @@
+.fanfusion-is-expanding,
+.footprint {
+  margin: 0;
+}
+.quisque-ut-metus-container1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 72px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.quisque-ut-metus-container {
+  height: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 18px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.active-indicator1 {
+  height: 24px;
+  width: 159.6px;
+  position: relative;
+  border-radius: 17px;
+  background-color: #120F3B;
+  display: none;
+}
+.titlecenteralign1,
+.titletitlecenteralign1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.titlecenteralign1 {
+  overflow: hidden;
+  justify-content: center;
+  min-height: 184px;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.titletitlecenteralign1 {
+  width: 923px;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.huge-global-icon {
+  align-self: stretch;
+  height: 537.8px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.titletitlecenteralign-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 109px 0;
+  max-width: 100%;
+}
+.m {
+  position: relative;
+}
+.text-input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 15px;
+}
+.ios-cloud-download-outline-icon {
+  width: 27.9px;
+  height: 26.4px;
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 2px;
+}
+.download {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.rectangle2 {
+  margin-top: -1px;
+  margin-bottom: -1px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 8px;
+  text-align: left;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.counter-wrapper,
+.counter1,
+.counter2,
+.rectangle2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.counter2 {
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 0 1px;
+}
+.counter-wrapper,
+.counter1 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+}
+.counter-wrapper {
+  flex-direction: column;
+  padding: 0 29px 0 0;
+}
+
+.m1 {
+  position: relative;
+}
+.members {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-weight: 600;
+  justify-content: flex-start;
+  padding: 0 10px;
+}
+.ios-people-outline-icon {
+  width: 43px;
+  height: 28px;
+  position: relative;
+  object-fit: cover;
+}
+.ios-people-outline-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 2px;
+}
+.members1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.iospeopleoutline1 {
+  margin-bottom: -1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 8px;
+  text-align: left;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.counter3,
+.counter4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.counter4 {
+  overflow: hidden;
+  align-items: flex-end;
+}
+.counter3 {
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame-inner {
+  height: 74.3px;
+  width: 1px;
+}
+.frame-inner,
+.k {
+  position: relative;
+}
+.k-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 23px 0 0;
+}
+.ios-paw-outline-icon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  object-fit: cover;
+}
+.communities {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.community-frame {
+  margin-top: -1px;
+  margin-bottom: -1px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 8px;
+  text-align: left;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.community-frame,
+.counter5,
+.frame-group {
+  display: flex;
+  align-items: center;
+}
+.counter5 {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 1px 0 0;
+}
+.frame-group {
+  width: 925px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+  color: #006064;
+}
+.frame-parent,
+.texttestimonial-inner {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 115px 0;
+  flex-shrink: 0;
+}
+.texttestimonial-inner {
+  width: 1186px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 63px 54px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 48px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Open Sans";
+}
+@media screen and (max-width: 1200px) {
+  .texttestimonial-inner {
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 35px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .quisque-ut-metus-container1 {
+    font-size: 38px;
+    line-height: 58px;
+  }
+  .titletitlecenteralign-parent {
+    gap: 54px 0;
+  }
+  .m {
+    font-size: 38px;
+  }
+  .download {
+    font-size: 26px;
+  }
+  .m1 {
+    font-size: 38px;
+  }
+  .members1 {
+    font-size: 26px;
+  }
+  .k {
+    font-size: 38px;
+  }
+  .communities {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .frame-group {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .frame-parent {
+    gap: 57px 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .titletitlecenteralign-parent {
+    gap: 27px 0;
+  }
+  .frame-parent {
+    gap: 29px 0;
+  }
+  .texttestimonial-inner {
+    padding-bottom: 23px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quisque-ut-metus-container1 {
+    font-size: 29px;
+    line-height: 43px;
+  }
+  .m {
+    font-size: 29px;
+  }
+  .download {
+    font-size: 19px;
+  }
+  .m1 {
+    font-size: 29px;
+  }
+  .members1 {
+    font-size: 19px;
+  }
+  .k {
+    font-size: 29px;
+  }
+  .communities {
+    font-size: 19px;
+  }
+}

@@ -1,0 +1,267 @@
+.top-scorer-to {
+  margin: 0;
+  width: 510px;
+  position: relative;
+  font-size: inherit;
+  line-height: 75px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(180deg, #262626, #B8C2CE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 75%;
+  z-index: 1;
+}
+.basketball-player-action-sunse-icon {
+  height: 700px;
+  width: 700px;
+  position: absolute;
+  margin: 0 !important;
+  right: -523px;
+  bottom: -262px;
+  object-fit: cover;
+  z-index: 2;
+}
+.apple-google-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.today {
+  position: relative;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: "DM Sans";
+  color: #B8C2CE;
+  text-align: left;
+}
+.iospeopleoutline {
+  cursor: pointer;
+  border: 0;
+  padding: 4px 12px 4px 16px;
+  background-color: #E1E8F0;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 3;
+}
+.iospeopleoutline:hover {
+  background-color: #C7CFD6;
+}
+.beautiful-young-african-woman-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 6px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.frame-child {
+  width: 270px;
+  height: 132px;
+  position: relative;
+  border-radius: 6px;
+  background: linear-gradient(0deg, #F2F2F2, rgba(242, 242, 242, 0));
+  display: none;
+}
+.fanfusion-07 {
+  position: relative;
+  line-height: 100.9%;
+  font-weight: 500;
+  z-index: 2;
+}
+.buffalo-banter-goes {
+  width: 200px;
+  position: relative;
+  font-size: 16px;
+  line-height: 123.9%;
+  font-family: "Open Sans";
+  color: #262626;
+  display: inline-block;
+  z-index: 2;
+}
+.rectangle-parent {
+  flex: 1;
+  border-radius: 6px;
+  background: linear-gradient(0deg, #F2F2F2, rgba(242, 242, 242, 0));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 66px 18px 12px;
+  gap: 4px 0;
+  z-index: 1;
+}
+.beautiful-young-african-woman-parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  z-index: 3;
+}
+.iospeopleoutline-parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+}
+.fastaccelerating-race-car-form-icon,
+.rectangle-child {
+  width: 270px;
+  position: relative;
+  border-radius: 6px;
+  display: none;
+}
+.fastaccelerating-race-car-form-icon {
+  height: 233px;
+  object-fit: cover;
+}
+.rectangle-child {
+  height: 132px;
+  background: linear-gradient(0deg, #F2F2F2, rgba(242, 242, 242, 0));
+}
+.fanfusion-071 {
+  position: relative;
+  line-height: 100.9%;
+  font-weight: 500;
+  z-index: 2;
+}
+.fanfusion-07-march-2024-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 6px;
+}
+.the-best-nfl {
+  width: 234px;
+  position: relative;
+  font-size: 16px;
+  line-height: 123.9%;
+  font-family: "Open Sans";
+  color: #262626;
+  display: inline-block;
+  z-index: 2;
+}
+.rectangle {
+  flex: 1;
+  border-radius: 6px;
+  background: linear-gradient(0deg, #F2F2F2, rgba(242, 242, 242, 0));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 66px 12px 12px;
+  gap: 4px 0;
+  z-index: 1;
+}
+.fastaccelerating-race-car-form-parent {
+  align-self: stretch;
+  height: 233px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: url(/public/1200x0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 3;
+}
+.counter,
+.line {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.counter {
+  align-self: stretch;
+  flex: 1;
+  gap: 30px 0;
+}
+.line {
+  height: 623px;
+  width: 270px;
+  padding: 69px 0 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "DM Sans";
+}
+.what-are-you-waiting-for,
+.what-are-you-waiting-for-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.what-are-you-waiting-for {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.what-are-you-waiting-for-wrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 17px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 80px;
+  color: rgba(38, 38, 38, 0.6);
+  font-family: "Open Sans";
+}
+@media screen and (max-width: 1050px) {
+  .top-scorer-to {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .what-are-you-waiting-for {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .line {
+    padding-top: 45px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .top-scorer-to {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+
+
+
+
+
+
+

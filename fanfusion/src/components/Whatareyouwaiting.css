@@ -1,0 +1,178 @@
+.continue-reading {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.09em;
+  line-height: 38px;
+  text-transform: uppercase;
+  font-family: "DM Sans";
+  color: #E1E8F0;
+  text-align: left;
+}
+.american-football-player-posin {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 10px;
+  background-color: #262626;
+  flex: 1;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.american-football-player-posin:hover {
+  background-color: #595959;
+}
+.rectangle1 {
+  width: 296px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 35px 11px;
+  box-sizing: border-box;
+}
+.quisque-ut-metus {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 72px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.quisque-ut-metus-wrapper {
+  height: 69px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 15px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.active-indicator {
+  height: 11.2px;
+  width: 111.1px;
+  position: relative;
+  border-radius: 17px;
+  background-color: #120F3B;
+  display: none;
+}
+.titlecenteralign,
+.titletitlecenteralign {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.titlecenteralign {
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 17px;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.titletitlecenteralign {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0;
+  max-width: 100%;
+}
+.nfl-afc-east {
+  height: auto;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nfl-afc-east-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 6px;
+}
+.vector,
+.vector-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vector {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px 0;
+}
+.vector-wrapper {
+  width: 674px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 32px 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.left-button-child,
+.topology-1-icon {
+  position: absolute;
+  top: 206px;
+  left: 217px;
+  width: 779px;
+  height: 820px;
+}
+.topology-1-icon {
+  top: 0;
+  left: 0;
+  width: 1208.3px;
+  height: 1126.9px;
+  z-index: 1;
+}
+.left-button {
+  align-self: stretch;
+  height: 1127px;
+  position: relative;
+}
+.whatareyouwaiting {
+  width: 1208px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 44px;
+  box-sizing: border-box;
+  gap: 51px 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Open Sans";
+}
+@media screen and (max-width: 1200px) {
+  .whatareyouwaiting {
+    padding-bottom: 29px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .quisque-ut-metus {
+    font-size: 38px;
+    line-height: 58px;
+  }
+  .whatareyouwaiting {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whatareyouwaiting {
+    gap: 25px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quisque-ut-metus {
+    font-size: 29px;
+    line-height: 43px;
+  }
+}

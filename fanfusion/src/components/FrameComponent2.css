@@ -1,0 +1,25 @@
+.testimonial-frame {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  align-items: center; /* Align items horizontally at the center */
+}
+
+.testimonial-item {
+  display: flex;
+  flex-direction: column; /* Display items vertically */
+  align-items: center; /* Align items horizontally at the center */
+  margin-bottom: 20px; /* Add margin between each testimonial */
+}
+
+.picture-frame {
+  /* Add any styling for the picture frame */
+}
+
+.testimonial-picture {
+  /* Add any styling for the testimonial picture */
+}
+
+.testimonial-text {
+  text-align: center; /* Center align the text */
+  width: 80%; /* Adjust width to make it smaller than the picture */
+}

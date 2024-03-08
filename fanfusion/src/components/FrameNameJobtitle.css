@@ -1,0 +1,144 @@
+.star-icon,
+.stars-child,
+.stars-child1,
+.stars-inner,
+.stars-item {
+  height: 24.4px;
+  width: 24.4px;
+  position: relative;
+  min-height: 24px;
+}
+.stars5 {
+  filter: drop-shadow(0 41px 87.29px rgba(21, 21, 21, 0.15));
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-frame-frame-star-star {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+.namejobtitlenamejobtitle-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-rectangle-star-star {
+  height: 219.6px;
+  width: 391.2px;
+  margin: 0 !important;
+  position: absolute;
+  top: -125px;
+  left: -183.1px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.arlene-mccoy {
+  position: relative;
+  font-weight: 800;
+}
+.president-of-sales {
+  position: relative;
+  font-size: 9.6px;
+  color: #505050;
+}
+.namejob-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.4px 0;
+}
+.logo5ff3c18e-1-icon {
+  height: 26px;
+  width: 105.7px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.namejob-title-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.text-testimonial {
+  width: 318px;
+  position: relative;
+  font-size: 14.4px;
+  font-family: Inter;
+  display: inline-block;
+}
+.testimonial-container {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 19.20000457763672px 20px 19.20000457763672px 19.20000457763672px;
+  box-sizing: border-box;
+  gap: 9.6px 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-texttestimonial-frame,
+.stars-star-star-star-star {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-texttestimonial-frame {
+  flex: 1;
+  align-items: flex-start;
+  position: relative;
+  min-width: 232px;
+}
+.stars-star-star-star-star {
+  width: 540px;
+  filter: drop-shadow(24px 28.8px 60px rgba(57, 57, 188, 0.36));
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 125px 0 1px 49px;
+  box-sizing: border-box;
+  row-gap: 20px;
+}
+.frame-name-jobtitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  text-align: left;
+  font-size: 12px;
+  color: #000;
+  font-family: Manrope;
+}
+@media screen and (max-width: 750px) {
+  .stars-star-star-star-star {
+    padding-left: 24px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .namejob-title-parent {
+    flex-wrap: wrap;
+  }
+}

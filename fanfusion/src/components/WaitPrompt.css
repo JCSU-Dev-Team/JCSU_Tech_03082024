@@ -1,0 +1,242 @@
+.what-are-you {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .apple-icon,
+  .google-icon {
+    height: 70px;
+    width: 236px;
+    position: relative;
+    object-fit: cover;
+    min-height: 70px;
+  }
+  .google-icon {
+    width: 238px;
+  }
+  .left-button-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0 30px;
+    max-width: 100%;
+  }
+  .vector-shape-child {
+    height: 385px;
+    width: 1168px;
+    position: relative;
+    border-radius: 6px;
+    background-color: #EBEEF3;
+    display: none;
+    max-width: 100%;
+  }
+  .become-part-of {
+    margin: 0;
+    width: 580px;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.01em;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    background: linear-gradient(180deg, #262626, #B8C2CE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    z-index: 5;
+  }
+  .frame-input,
+  .rectangle-div {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .rectangle-div {
+    align-self: stretch;
+    width: 514px;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #262626;
+    display: none;
+  }
+  .frame-input {
+    width: calc(100% - 41px);
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    height: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 10px;
+    font-family: "DM Sans";
+    font-size: 21px;
+    color: rgba(38, 38, 38, 0.37);
+    min-width: 233px;
+  }
+  .frame-child1 {
+    position: absolute;
+    top: 0;
+    left: -0.1px;
+    border-radius: 0 6px 6px 0;
+    background-color: #DC4D1C;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .arrow-icon {
+    position: absolute;
+    top: 20.4px;
+    left: calc(50% - 8.6px);
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+    z-index: 2;
+  }
+  .rectangle-container {
+    height: 58px;
+    width: 74px;
+    position: relative;
+    border-radius: 0 6px 6px 0;
+    background-color: #DC4D1C;
+    z-index: 1;
+  }
+  .rectangle-group {
+    width: 514px;
+    border-radius: 6px;
+    border: 1px solid #262626;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 2px 0 22px;
+    gap: 57px;
+    max-width: 100%;
+    z-index: 3;
+  }
+  .become-part-of-the-fanfusion-n-parent,
+  .frame-group1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .become-part-of-the-fanfusion-n-parent {
+    gap: 13px 0;
+    max-width: 103%;
+    flex-shrink: 0;
+  }
+  .frame-group1 {
+    flex: 1;
+    padding: 20px 0;
+    box-sizing: border-box;
+    min-width: 365px;
+    min-height: 317px;
+    max-width: 100%;
+  }
+ 
+  .american-football-player-posin-icon {
+    position: absolute;
+    top: 42.4px;
+    left: 19px;
+    width: 520px;
+    height: 385px;
+    object-fit: cover;
+    z-index: 4;
+  }
+  .american-football-icon {
+    margin-top: -42px;
+    height: 427px;
+    width: 539px;
+    position: relative;
+    min-width: 539px;
+    max-width: 100%;
+  }
+  .vector-shape,
+  .wait-prompt {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .vector-shape {
+    border-radius: 6px;
+    background-color: #EBEEF3;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0 0 68px;
+    row-gap: 20px;
+    z-index: 2;
+    text-align: left;
+    font-size: 54px;
+  }
+  .wait-prompt {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 23px;
+    gap: 41px 0;
+    text-align: center;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Open Sans";
+  }
+  @media screen and (max-width: 1200px) {
+    .frame-group1 {
+      min-height: auto;
+    }
+    .american-football-icon {
+      flex: 1;
+    }
+    .vector-shape {
+      flex-wrap: wrap;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .what-are-you {
+      font-size: 38px;
+    }
+    .become-part-of {
+      font-size: 43px;
+      line-height: 48px;
+    }
+    .american-football-icon {
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .left-button-frame {
+      flex-wrap: wrap;
+    }
+    .rectangle-group {
+      flex-wrap: wrap;
+      gap: 28px;
+    }
+    .frame-group1 {
+      min-width: 100%;
+    }
+    .wait-prompt {
+      gap: 20px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .what-are-you {
+      font-size: 29px;
+    }
+    .become-part-of {
+      font-size: 32px;
+      line-height: 36px;
+    }
+  }
