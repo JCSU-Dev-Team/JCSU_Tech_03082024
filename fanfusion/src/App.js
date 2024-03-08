@@ -23,7 +23,7 @@ function App() {
     <Helmet>
                 <meta charSet="utf-8" />
                 <title>FanFusion</title>
-                <link rel="canonical" href="https://pre-healthx.web.app" />
+                <link rel="canonical" href="https://fanfusion-61fa5.web.app" />
                 <meta name="description" content="" />
             </Helmet>
       <BrowserRouter>
